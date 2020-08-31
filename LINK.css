@@ -1,0 +1,33 @@
+body {
+  font-family: "Avenir Next";
+}
+
+header {
+  height:50px;
+  background-color: #FF9872;
+}
+
+.top-wrapper {
+  height:200px;
+  background-color: #87CEFA;
+}
+
+
+.main-wrapper {
+  height:500px;
+  background-color:#00FA9A;
+}
+
+.head {
+  text-align: center;
+  margin-top:0px;
+}
+
+.message-wrapper {
+}
+
+
+footer {
+  height:50px;
+  background-color:#006400;
+}

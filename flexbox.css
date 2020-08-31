@@ -1,0 +1,130 @@
+body {
+  font-family: "Avenir Next";
+}
+
+header {
+  height:50px;
+  background-color: #FF9872;
+}
+
+.top-wrapper {
+  height:200px;
+  background-color: #87CEFA;
+}
+
+.main-wrapper {
+  height:600px;
+  background-color:#00FA9A;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+li {
+  color: white;
+  height: 40px;
+  line-height: 40px;
+}
+.li1 {
+  background-color: #ffc562;
+}
+.li2 {
+  background-color: #a0c3f7;
+}
+.li3 {
+  background-color: #ff8db3;
+}
+.li4 {
+  background-color: #88e7ce;
+}
+/* .flex-listに、displayプロパティを指定してください */
+.flex-list {
+  display:flex;
+}
+
+.flex-list1 {
+  display:flex;
+}
+
+.flex-list1 li{
+  flex:auto;
+}
+
+.flex-list2 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.flex-list2 li{
+  flex:auto;
+  width:50%;
+}
+
+.flex-list3 {
+  display:flex;
+}
+
+.flex-list3 li{
+  flex:auto;
+}
+
+@media (max-width: 1000px) {
+.flex-list3 {
+  flex-wrap:wrap;
+}
+
+.flex-list3 li{
+  width:50%;
+}
+}
+
+.flex-list4 {
+  display:flex;
+}
+
+.flex-list4 li{
+  flex:auto;
+}
+
+@media (max-width: 1000px) {
+.flex-list4 {
+  flex-wrap:wrap;
+}
+
+.flex-list4 li{
+  width:50%;
+}
+}
+
+@media (max-width: 670px) {
+.flex-list4 {
+    flex-direction:column;
+  }
+
+
+.flex-list4 li{
+  margin:0 auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.message-wrapper {
+}
+
+
+footer {
+  height:50px;
+  background-color:#006400;
+}

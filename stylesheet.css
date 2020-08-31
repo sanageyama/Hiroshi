@@ -1,0 +1,223 @@
+body {
+  font-family: "Avenir Next";
+}
+
+header {
+  background-color:#C2EEFF;
+  height:50px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  float:left;
+  height:38px;
+  width:110px;
+  padding:7px 15px;
+}
+
+.header-list a{
+  float: right;
+  transition:all 0.5s;
+}
+
+
+.header-list a:hover {
+  background-color: rgba(255, 200, 200, 1.0);
+}
+
+.contact {
+  background-color: rgba(255, 255, 255, 0.3);
+  line-height:40px;
+  float:right;
+  padding-right:25px;
+  padding-left:25px;
+  margin:5px 10px;
+  color:white;
+  display:block;
+}
+
+
+.profile {
+  background-color: rgba(255, 255, 255, 0.3);
+  line-height:40px;
+  float:right;
+  padding-right:25px;
+  padding-left:25px;
+  margin:5px 10px;
+  color:white;
+  display:block;
+}
+
+
+.top-wrapper {
+  padding-top:80px;
+  padding-bottom:200px;
+  background-image: url(./img/top.jpg);
+  background-size: cover;
+  color:#CCFF66;
+  text-align: center;
+}
+
+.container {
+  width:500px;
+  margin:auto;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 6px;
+}
+
+.top-wrapper h2{
+  opacity: 0.7;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.container p{
+  opacity: 0.7;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+.contents-wrapper {
+  height: 400px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+
+.enter1 {
+  float: left;
+  width:50%;
+  text-align: center;
+}
+
+.enter1-icon {
+  position: relative;
+}
+
+.enter1-icon img:hover {
+  background-color: rgba(255, 200, 200, 0.9);
+}
+
+.enter1-icon img{
+  height: 200px;
+  width: 200px;
+  transition:all 0.5s;
+  cursor:pointer;
+}
+
+
+.enter1-icon p{
+  position:absolute;
+  top:60px;
+  width:100%;
+  font-size:20px;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message {
+  padding: 15px 10px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+ box-shadow:none;
+ position:relative;
+ top:7px;
+}
+
+.container p{
+  margin-bottom:0px;
+}
+
+input {
+  width:300px;
+}
+textarea {
+  height:70px;
+  width:300px;
+  margin-bottom:30px;
+}
+
+footer {
+  background-color:#A4C6FF;
+  height: 100px;
+}
+
+.footer-logo img{
+  float:left;
+  height:38px;
+  width:110px;
+  padding:7px 20px;
+}
+
+
+.footer-list {
+  float:right;
+  padding-bottom:15px;
+  padding-right:10px;
+}
+.footer-list li{
+  list-style: none;
+}
+
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  /* border-radiusを4pxに指定してください */
+  border-radius:4px;
+  margin:5px 5px;
+}
+
+/* btnクラスにhoverしたときのCSSを指定してください */
+.btn:hover {
+  opacity:1;
+}
+
+.instagram {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right:5px;
+}
